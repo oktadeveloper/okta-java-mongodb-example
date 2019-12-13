@@ -54,7 +54,7 @@ To run the SpringMVC resource server, run:
 
 ## Help
 
-Please post any questions as comments on the [blog post]() or post them to Stack Overflow with the `okta` tag.
+Please post any questions as comments on the [blog post](http://<need.a.link>) or post them to Stack Overflow with the `okta` tag.
 
 ## License
 
