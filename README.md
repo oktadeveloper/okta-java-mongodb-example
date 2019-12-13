@@ -4,15 +4,16 @@ This example app shows how to build a CRUD application with MongoDB and Spring B
 
 ## Prerequisite
 
-**Java 11**: This project uses Java 11. If you don’t have Java 11, you can install OpenJDK. Instructions are found on the  [OpenJDK website](https://openjdk.java.net/install/). OpenJDK can also be installed using  [Homebrew](https://brew.sh/).  [SDKMAN](https://sdkman.io/)  is another great option for installing and managing Java versions.
+**Java 11**: This project uses Java 11. If you don’t have Java 11, you can install OpenJDK. Instructions are found on the  [OpenJDK website](https://openjdk.java.net/install/).
 
-**HTTPie**: This is a simple command-line utility for making HTTP requests. You’ll use this to test the REST application. Check out  [the installation instructions on their website](https://httpie.org/doc#installation).
-
-**Okta Developer Account**: You’ll be using Okta as an OAuth/OIDC provider to add JWT authentication and authorization to the application. Go to  [their website](https://developer.okta.com/signup/)  and sign up for one of their free developer accounts, if you haven’t already.
+**Okta Developer Account**: Go to [the Okta website](https://developer.okta.com/signup/) and sign up for one of their free developer accounts, if you haven’t already.
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's REST API and makes it easy for developers to authenticate, manage, and secure users + roles in any application.
 
 * [Getting Started](#getting-started)
+* [Create OIDC App](#create-a-new-oidc-app-in-okta)
+* [Configure the Resource Server](#configure-the-resource-server)
+* [Run the Resource Server](#run-the-resource-server)
 * [Help](#help)
 * [License](#license)
 
