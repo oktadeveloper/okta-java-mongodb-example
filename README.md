@@ -36,6 +36,8 @@ If you don't have an Okta developer account, please [create one](https://develop
 6. Under **Grant types allowed**, check **Implicit (Hybrid)**.
 7. The rest of the default values will work. Click  **Done**.
 
+Steps 4 & 5 are only needed if you want to use the [OpenID Connect Debugger](https://oidcdebugger.com/) to generate a test token.
+
 ## Configure the Resource Server
 
 You need to add the Issuer URI from your Okta account to the `src/main/resources/application.properties` file. To find your Issuer URI, go to **API** -> **Authorizaiton Servers**.
