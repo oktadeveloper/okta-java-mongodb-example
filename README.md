@@ -1,12 +1,12 @@
-# Spring MVC and MongoDB 
+# Java and MongoDB Example
 
-This example app shows how to build a CRUD application with MongoDB and Spring Boot.
+This example app shows how to build a CRUD application with Java, MongoDB, and Spring Boot.
 
 ## Prerequisite
 
 **Java 11**: This project uses Java 11. If you don’t have Java 11, you can install OpenJDK. Instructions are found on the  [OpenJDK website](https://openjdk.java.net/install/).
 
-**Okta Developer Account**: Go to [the Okta website](https://developer.okta.com/signup/) and sign up for one of their free developer accounts, if you haven’t already.
+**Okta Developer Account**: Go to [the Okta website](https://developer.okta.com/signup/) and sign up for a free developer account, if you haven’t already.
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's REST API and makes it easy for developers to authenticate, manage, and secure users + roles in any application.
 
@@ -22,7 +22,7 @@ This example app shows how to build a CRUD application with MongoDB and Spring B
 To install this example application, run the following commands:
 
 ```bash
-git clone https://<need.a.link>
+git clone https://github.com/oktadeveloper/okta-java-mongodb-example.git
 ```
 
 ## Create a New OIDC App in Okta
@@ -56,7 +56,7 @@ To run the SpringMVC resource server, run:
 
 ## Help
 
-Please post any questions as comments on the [blog post](http://<need.a.link>) or post them to Stack Overflow with the `okta` tag.
+Please post any questions as comments on the [blog post]() or post them to Stack Overflow with the `okta` tag.
 
 ## License
 

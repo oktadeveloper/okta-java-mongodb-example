@@ -16,11 +16,7 @@ public class RefrigeratorItem {
 
     @Id
     private String id;
-    
     private String name;
-
     private String owner;
-
     private Date expiration;
-
 }
