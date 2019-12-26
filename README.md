@@ -1,6 +1,6 @@
 # Java and MongoDB Example
 
-This example app shows how to build a CRUD API with Java, MongoDB, and Spring Boot. See [](https://developer.okta.com/blog/2019/12/26/java-mongodb-crud) to see how it was built.
+This example app shows how to build a CRUD API with Java, MongoDB, and Spring Boot. See [Build a CRUD API with Java and MongoDB](https://developer.okta.com/blog/2019/12/26/java-mongodb-crud) to see how it was built.
 
 ## Prerequisite
 
