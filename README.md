@@ -1,6 +1,6 @@
 # Java and MongoDB Example
 
-This example app shows how to build a CRUD application with Java, MongoDB, and Spring Boot.
+This example app shows how to build a CRUD API with Java, MongoDB, and Spring Boot.
 
 ## Prerequisite
 
