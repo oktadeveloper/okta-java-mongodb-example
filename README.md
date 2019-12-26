@@ -1,6 +1,6 @@
 # Java and MongoDB Example
 
-This example app shows how to build a CRUD API with Java, MongoDB, and Spring Boot.
+This example app shows how to build a CRUD API with Java, MongoDB, and Spring Boot. See [](https://developer.okta.com/blog/2019/12/26/java-mongodb-crud) to see how it was built.
 
 ## Prerequisite
 
@@ -54,9 +54,37 @@ To run the SpringMVC resource server, run:
 ./gradlew bootRun
 ```
 
+Then use [OIDC Debugger](https://oidcdebugger.com/) to create an access token. Save the access token as a variable in your terminal:
+
+```bash
+TOKEN=eyJraWQiOiJrQkNxZ3o1MmQtOUhVSl94c0x4aGtzYlJxUDVD...
+```
+
+Now you can make authenticated and authorized requests.
+
+```bash
+$ http :8080 "Authorization: Bearer $TOKEN"
+
+HTTP/1.1 200
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+...
+
+{
+    "_links": {
+        "fridge": {
+            "href": "http://localhost:8080/fridge{?page,size,sort}",
+            "templated": true
+        },
+        "profile": {
+            "href": "http://localhost:8080/profile"
+        }
+    }
+}
+```
+
 ## Help
 
-Please post any questions as comments on the [blog post]() or post them to Stack Overflow with the `okta` tag.
+Please post any questions as comments on the [blog post](https://developer.okta.com/blog/2019/12/26/java-mongodb-crud) or post them to Stack Overflow with the `okta` tag.
 
 ## License
 
